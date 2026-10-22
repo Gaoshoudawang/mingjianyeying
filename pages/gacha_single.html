@@ -505,7 +505,8 @@ var BG_SINGLE = '../images/common/pages/gacha/single_bg.png';
 // ========== 道具概率表（45个道具）==========
 var ITEM_POOL = window.GACHA_BASE_POOL || [];
 
-// ===== 从伪后端管理页面读取道具配置（双向同步）=====
+// ===== 从伪后端管理页面读取道具配置（已禁用，避免旧配置覆盖）=====
+/*
 (function(){
   try{
     var saved = localStorage.getItem('cfmGachaConfig');
@@ -530,6 +531,7 @@ var ITEM_POOL = window.GACHA_BASE_POOL || [];
     console.log('[伪后端] 读取道具配置失败:', e);
   }
 })();
+*/
 
 
 function randomItem(){

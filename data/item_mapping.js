@@ -48,6 +48,14 @@ var ITEM_SMALL_IMAGES = {
     '鸣剑曳影夺宝币': 'images/items_box/鸣剑曳影夺宝币/small.png'
 };
 
+// 品质格子背景图
+window.SLOT_IMAGES = {
+  white: '../images/common/slot/white.png',
+  purple: '../images/common/slot/purple.png',
+  gold: '../images/common/slot/gold.png',
+  red: '../images/common/slot/red.png'
+};
+
 // 道具展示图映射
 var SHOWCASE_IMAGES = {
     'M200-权-鸣剑曳影': 'images/items_box/M200-权-鸣剑曳影/showcase.png',
