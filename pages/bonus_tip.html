@@ -172,7 +172,7 @@ window.addEventListener('message', function(e){
       }else if(window.parent && window.parent.SHOWCASE_ITEMS){
         hasShowcase = window.parent.SHOWCASE_ITEMS.indexOf(cleanName) !== -1;
       }
-      var imgType = hasShowcase ? 'showcase' : 'bonus';
+      var imgType = hasShowcase ? 'showcase' : 'small';
       
       // 1. 优先从itemMapping读取（父页面已经传递过来了）
       if(itemMapping && itemMapping[cleanName] && itemMapping[cleanName].image){
