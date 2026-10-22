@@ -1942,8 +1942,8 @@ function closeBonusTip(selectedReward){
   bonusCurrentReward = selectedReward;
   if(bonusCurrentReward){
     // 统一用getItemImage函数获取图片，支持带数量的道具名称（如"近战夺宝积分×3"、"99钻石宝箱×1"）
-    // 有出货动画的道具用showcase大图，没有的用bonus小图
-    var imgType = needShowcase(bonusCurrentReward) ? 'showcase' : 'bonus';
+    // 有出货动画的道具用showcase大图，没有的用small小图
+    var imgType = needShowcase(bonusCurrentReward) ? 'showcase' : 'small';
     bonusCurrentReward.image = '../' + window.getItemImage(bonusCurrentReward.name, imgType);
     // 从ITEM_MAPPING获取品质，如果没有则默认gold
     var cleanName = bonusCurrentReward.name ? bonusCurrentReward.name.replace(/[×*]\d+$/, '') : '';
