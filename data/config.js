@@ -5,34 +5,34 @@
 
 var SIMULATOR_CONFIG = {
   // ===== 基本信息 =====
-  title: '雷暴王者近战夺宝抽奖模拟器',
-  loadingLogo: '雷暴王者近战夺宝',
+  title: '鸣剑曳影夺宝抽奖模拟器',
+  loadingLogo: '鸣剑曳影夺宝',
   
   // ===== 抽奖币（购买获得）=====
   gachaCoin: {
-    name: '近战夺宝钥匙',
+    name: '鸣剑曳影夺宝币',
     quality: 'gold',
   },
   
   // ===== 兑换币（分解获得）=====
   exchangeCoin: {
-    name: '近战夺宝积分',
-    smallImage: '../images/items_box/近战夺宝积分/small.png',
-    bonusImage: '../images/items_box/近战夺宝积分/bonus.png',
+    name: '鸣剑曳影兑换币',
+    smallImage: '../images/items_box/鸣剑曳影兑换币/small.png',
+    bonusImage: '../images/items_box/鸣剑曳影兑换币/bonus.png',
     quality: 'purple',
   },
   
   // ===== 主题颜色 =====
   theme: {
-    primaryColor: '#ffd700',
-    primaryColorRgb: '255,215,0',
-    primaryColorLight: '#ffe066',
-    accentColor: '#ffe080',
+    primaryColor: '#4a9eff',
+    primaryColorRgb: '74,158,255',
+    primaryColorLight: '#7ab8ff',
+    accentColor: '#ffd700',
   },
   
   // ===== 操作指南 =====
   guide: {
-    title: '雷暴王者近战夺宝操作指南',
+    title: '鸣剑曳影夺宝操作指南',
     steps: [
       '1. 手机开启自动旋转，点击右上角全屏按钮横屏使用。',
       '2. 首页有"抽奖1次"和"抽奖10次"两个按钮，点击进行抽奖。',

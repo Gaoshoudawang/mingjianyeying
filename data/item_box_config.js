@@ -1,11 +1,11 @@
 // ============================================================
 // 道具盒子配置总表
-// 由所有小盒子的 config.json 自动汇总生成
-// 小盒子文件夹里只放图片，配置都集中在这里
+// 鸣剑曳影夺宝
 // ============================================================
 
 var ITEM_BOX_CONFIG = {
-  "AK47-火麒麟-玉门春风": {
+  // ===== 主武器（金色，可展示、可分解）=====
+  "M200-权-鸣剑曳影": {
     "quality": "gold",
     "has_showcase": true,
     "decompose_points": 100,
@@ -14,7 +14,7 @@ var ITEM_BOX_CONFIG = {
     "gacha_behavior": "storage",
     "bonus_behavior": "warehouse"
   },
-  "AK47-雷暴": {
+  "柯尔特-权-鸣剑曳影": {
     "quality": "gold",
     "has_showcase": true,
     "decompose_points": 100,
@@ -23,7 +23,7 @@ var ITEM_BOX_CONFIG = {
     "gacha_behavior": "storage",
     "bonus_behavior": "warehouse"
   },
-  "M14EBR-兔兔战士": {
+  "吴王六剑-鸣剑曳影": {
     "quality": "gold",
     "has_showcase": true,
     "decompose_points": 100,
@@ -32,7 +32,7 @@ var ITEM_BOX_CONFIG = {
     "gacha_behavior": "storage",
     "bonus_behavior": "warehouse"
   },
-  "M14EBR-兔兔战士-丛林探险": {
+  "AK47-元让-鸣剑曳影": {
     "quality": "gold",
     "has_showcase": true,
     "decompose_points": 100,
@@ -41,296 +41,101 @@ var ITEM_BOX_CONFIG = {
     "gacha_behavior": "storage",
     "bonus_behavior": "warehouse"
   },
-  "M14EBR-兔兔战士-兔兔之印": {
+  "双持沙鹰-元让-鸣剑曳影": {
+    "quality": "gold",
+    "has_showcase": true,
+    "decompose_points": 100,
+    "exchange_price": 0,
+    "special": false,
+    "gacha_behavior": "storage",
+    "bonus_behavior": "warehouse"
+  },
+  "啖晴矢-鸣剑曳影": {
+    "quality": "gold",
+    "has_showcase": true,
+    "decompose_points": 100,
+    "exchange_price": 0,
+    "special": false,
+    "gacha_behavior": "storage",
+    "bonus_behavior": "warehouse"
+  },
+
+  // ===== 印花和凛渊系列（金色）=====
+  "印花|凛渊碎星": {
     "quality": "gold",
     "has_showcase": false,
-    "decompose_points": 100,
+    "decompose_points": 10,
     "exchange_price": 0,
-    "special": true,
+    "special": false,
     "gacha_behavior": "storage",
     "bonus_behavior": "warehouse"
   },
-  "M14EBR-兔兔战士-兔兔之殇": {
+  "M200-权-凛渊之触": {
     "quality": "gold",
     "has_showcase": false,
-    "decompose_points": 100,
+    "decompose_points": 10,
     "exchange_price": 0,
-    "special": true,
+    "special": false,
     "gacha_behavior": "storage",
     "bonus_behavior": "warehouse"
   },
-  "M14EBR-兔兔战士-兔兔之触": {
+  "AK47-元让-凛渊之触": {
     "quality": "gold",
     "has_showcase": false,
-    "decompose_points": 100,
+    "decompose_points": 10,
     "exchange_price": 0,
-    "special": true,
+    "special": false,
     "gacha_behavior": "storage",
     "bonus_behavior": "warehouse"
   },
-  "M14EBR-兔兔战士（3天）": {
+  "抛物线-凛渊碎星": {
     "quality": "gold",
     "has_showcase": false,
-    "decompose_points": 1,
+    "decompose_points": 10,
     "exchange_price": 0,
     "special": false,
     "gacha_behavior": "storage",
     "bonus_behavior": "warehouse"
   },
-  "M4A1-雷神-能量核心": {
-    "quality": "gold",
-    "has_showcase": true,
-    "decompose_points": 100,
-    "exchange_price": 0,
-    "special": false,
-    "gacha_behavior": "storage",
-    "bonus_behavior": "warehouse"
-  },
-  "USP-兔兔战士": {
-    "quality": "gold",
-    "has_showcase": true,
-    "decompose_points": 100,
-    "exchange_price": 0,
-    "special": false,
-    "gacha_behavior": "storage",
-    "bonus_behavior": "warehouse"
-  },
-  "USP-兔兔战士（3天）": {
+  "M200-权-凛渊之殇": {
     "quality": "gold",
     "has_showcase": false,
-    "decompose_points": 1,
+    "decompose_points": 10,
     "exchange_price": 0,
     "special": false,
     "gacha_behavior": "storage",
     "bonus_behavior": "warehouse"
   },
-  "USP-雷暴": {
-    "quality": "gold",
-    "has_showcase": true,
-    "decompose_points": 100,
-    "exchange_price": 0,
-    "special": false,
-    "gacha_behavior": "storage",
-    "bonus_behavior": "warehouse"
-  },
-  "传说玩偶自选卡": {
+  "AK47-元让-凛渊之殇": {
     "quality": "gold",
     "has_showcase": false,
-    "decompose_points": 100,
+    "decompose_points": 10,
     "exchange_price": 0,
     "special": false,
     "gacha_behavior": "storage",
     "bonus_behavior": "warehouse"
   },
-  "印花兔兔战士": {
+  "M200-权-凛渊之印": {
     "quality": "gold",
     "has_showcase": false,
-    "decompose_points": 100,
+    "decompose_points": 10,
     "exchange_price": 0,
     "special": false,
     "gacha_behavior": "storage",
     "bonus_behavior": "warehouse"
   },
-  "印花玉门春风": {
+  "AK47-元让-凛渊之印": {
     "quality": "gold",
     "has_showcase": false,
-    "decompose_points": 100,
+    "decompose_points": 10,
     "exchange_price": 0,
     "special": false,
     "gacha_behavior": "storage",
     "bonus_behavior": "warehouse"
   },
-  "宝箱": {
-    "quality": "gold",
-    "has_showcase": false,
-    "decompose_points": 100,
-    "exchange_price": 0,
-    "special": false,
-    "gacha_behavior": "storage",
-    "bonus_behavior": "warehouse",
-    "bonus_image_type": "chest"
-  },
-  "巴雷特-毁灭-能量核心": {
-    "quality": "gold",
-    "has_showcase": true,
-    "decompose_points": 100,
-    "exchange_price": 0,
-    "special": false,
-    "gacha_behavior": "storage",
-    "bonus_behavior": "warehouse"
-  },
-  "手斧-兔兔战士": {
-    "quality": "gold",
-    "has_showcase": true,
-    "decompose_points": 100,
-    "exchange_price": 0,
-    "special": false,
-    "gacha_behavior": "storage",
-    "bonus_behavior": "warehouse"
-  },
-  "手斧-兔兔战士（3天）": {
-    "quality": "gold",
-    "has_showcase": false,
-    "decompose_points": 1,
-    "exchange_price": 0,
-    "special": false,
-    "gacha_behavior": "storage",
-    "bonus_behavior": "warehouse"
-  },
-  "抛物线-兔兔战士": {
-    "quality": "gold",
-    "has_showcase": false,
-    "decompose_points": 100,
-    "exchange_price": 0,
-    "special": true,
-    "gacha_behavior": "storage",
-    "bonus_behavior": "warehouse"
-  },
-  "斩神刀-雷暴": {
-    "quality": "gold",
-    "has_showcase": true,
-    "decompose_points": 100,
-    "exchange_price": 0,
-    "special": false,
-    "gacha_behavior": "storage",
-    "bonus_behavior": "warehouse"
-  },
-  "斩神刀-雷暴王者": {
-    "quality": "gold",
-    "has_showcase": true,
-    "decompose_points": 100,
-    "exchange_price": 0,
-    "special": false,
-    "gacha_behavior": "storage",
-    "bonus_behavior": "warehouse"
-  },
-  "斩神刀-雷暴王者-冰霜奇迹": {
-    "quality": "gold",
-    "has_showcase": true,
-    "decompose_points": 100,
-    "exchange_price": 0,
-    "special": false,
-    "gacha_behavior": "storage",
-    "bonus_behavior": "warehouse"
-  },
-  "烟雾弹-游骑兵-寒霜": {
-    "quality": "gold",
-    "has_showcase": true,
-    "decompose_points": 100,
-    "exchange_price": 0,
-    "special": false,
-    "gacha_behavior": "storage",
-    "bonus_behavior": "warehouse"
-  },
-  "烟雾弹-雷暴": {
-    "quality": "gold",
-    "has_showcase": true,
-    "decompose_points": 100,
-    "exchange_price": 0,
-    "special": false,
-    "gacha_behavior": "storage",
-    "bonus_behavior": "warehouse"
-  },
-  "燃烧弹-游骑兵-寒霜": {
-    "quality": "gold",
-    "has_showcase": true,
-    "decompose_points": 100,
-    "exchange_price": 0,
-    "special": false,
-    "gacha_behavior": "storage",
-    "bonus_behavior": "warehouse"
-  },
-  "燃烧弹-雷暴王者": {
-    "quality": "gold",
-    "has_showcase": true,
-    "decompose_points": 100,
-    "exchange_price": 0,
-    "special": false,
-    "gacha_behavior": "storage",
-    "bonus_behavior": "warehouse"
-  },
-  "王者之击": {
-    "quality": "gold",
-    "has_showcase": true,
-    "decompose_points": 100,
-    "exchange_price": 0,
-    "special": false,
-    "gacha_behavior": "storage",
-    "bonus_behavior": "warehouse"
-  },
-  "王者之刺": {
-    "quality": "gold",
-    "has_showcase": true,
-    "decompose_points": 100,
-    "exchange_price": 0,
-    "special": false,
-    "gacha_behavior": "storage",
-    "bonus_behavior": "warehouse"
-  },
-  "王者之痕": {
-    "quality": "gold",
-    "has_showcase": true,
-    "decompose_points": 100,
-    "exchange_price": 0,
-    "special": false,
-    "gacha_behavior": "storage",
-    "bonus_behavior": "warehouse"
-  },
-  "王者之破": {
-    "quality": "gold",
-    "has_showcase": true,
-    "decompose_points": 100,
-    "exchange_price": 0,
-    "special": false,
-    "gacha_behavior": "storage",
-    "bonus_behavior": "warehouse"
-  },
-  "王者燃烧弹冰霜皮肤自选卡": {
-    "quality": "gold",
-    "has_showcase": false,
-    "decompose_points": 100,
-    "exchange_price": 0,
-    "special": true,
-    "gacha_behavior": "storage",
-    "bonus_behavior": "warehouse"
-  },
-  "王者燃烧弹自选卡": {
-    "quality": "gold",
-    "has_showcase": false,
-    "decompose_points": 100,
-    "exchange_price": 0,
-    "special": true,
-    "gacha_behavior": "storage",
-    "bonus_behavior": "warehouse"
-  },
-  "王者近战冰霜自选卡": {
-    "quality": "gold",
-    "has_showcase": false,
-    "decompose_points": 100,
-    "exchange_price": 0,
-    "special": false,
-    "gacha_behavior": "storage",
-    "bonus_behavior": "warehouse"
-  },
-  "王者近战自选卡": {
-    "quality": "gold",
-    "has_showcase": false,
-    "decompose_points": 100,
-    "exchange_price": 0,
-    "special": false,
-    "gacha_behavior": "storage",
-    "bonus_behavior": "warehouse"
-  },
-  "软萌兔兔挂饰": {
-    "quality": "gold",
-    "has_showcase": false,
-    "decompose_points": 100,
-    "exchange_price": 0,
-    "special": true,
-    "gacha_behavior": "storage",
-    "bonus_behavior": "warehouse"
-  },
-  "近战夺宝积分": {
+
+  // ===== 鸣剑曳影兑换币（紫色，积分类型）=====
+  "鸣剑曳影兑换币": {
     "quality": "purple",
     "has_showcase": false,
     "decompose_points": 0,
@@ -341,16 +146,185 @@ var ITEM_BOX_CONFIG = {
     "points_type": "exchange",
     "points_amount": 1
   },
-  "近战夺宝钥匙": {
-    "quality": "gold",
+  "鸣剑曳影兑换币×2": {
+    "quality": "purple",
     "has_showcase": false,
     "decompose_points": 0,
     "exchange_price": 0,
-    "special": true,
-    "gacha_behavior": "none",
-    "bonus_behavior": "none"
+    "special": false,
+    "gacha_behavior": "points",
+    "bonus_behavior": "points",
+    "points_type": "exchange",
+    "points_amount": 2
   },
-  "钻石": {
+  "鸣剑曳影兑换币×3": {
+    "quality": "purple",
+    "has_showcase": false,
+    "decompose_points": 0,
+    "exchange_price": 0,
+    "special": false,
+    "gacha_behavior": "points",
+    "bonus_behavior": "points",
+    "points_type": "exchange",
+    "points_amount": 3
+  },
+  "鸣剑曳影兑换币×5": {
+    "quality": "purple",
+    "has_showcase": false,
+    "decompose_points": 0,
+    "exchange_price": 0,
+    "special": false,
+    "gacha_behavior": "points",
+    "bonus_behavior": "points",
+    "points_type": "exchange",
+    "points_amount": 5
+  },
+  "鸣剑曳影兑换币×6": {
+    "quality": "purple",
+    "has_showcase": false,
+    "decompose_points": 0,
+    "exchange_price": 0,
+    "special": false,
+    "gacha_behavior": "points",
+    "bonus_behavior": "points",
+    "points_type": "exchange",
+    "points_amount": 6
+  },
+  "鸣剑曳影兑换币×8": {
+    "quality": "purple",
+    "has_showcase": false,
+    "decompose_points": 0,
+    "exchange_price": 0,
+    "special": false,
+    "gacha_behavior": "points",
+    "bonus_behavior": "points",
+    "points_type": "exchange",
+    "points_amount": 8
+  },
+  "鸣剑曳影兑换币×10": {
+    "quality": "purple",
+    "has_showcase": false,
+    "decompose_points": 0,
+    "exchange_price": 0,
+    "special": false,
+    "gacha_behavior": "points",
+    "bonus_behavior": "points",
+    "points_type": "exchange",
+    "points_amount": 10
+  },
+  "鸣剑曳影兑换币×12": {
+    "quality": "purple",
+    "has_showcase": false,
+    "decompose_points": 0,
+    "exchange_price": 0,
+    "special": false,
+    "gacha_behavior": "points",
+    "bonus_behavior": "points",
+    "points_type": "exchange",
+    "points_amount": 12
+  },
+  "鸣剑曳影兑换币×15": {
+    "quality": "purple",
+    "has_showcase": false,
+    "decompose_points": 0,
+    "exchange_price": 0,
+    "special": false,
+    "gacha_behavior": "points",
+    "bonus_behavior": "points",
+    "points_type": "exchange",
+    "points_amount": 15
+  },
+  "鸣剑曳影兑换币×16": {
+    "quality": "purple",
+    "has_showcase": false,
+    "decompose_points": 0,
+    "exchange_price": 0,
+    "special": false,
+    "gacha_behavior": "points",
+    "bonus_behavior": "points",
+    "points_type": "exchange",
+    "points_amount": 16
+  },
+  "鸣剑曳影兑换币×18": {
+    "quality": "purple",
+    "has_showcase": false,
+    "decompose_points": 0,
+    "exchange_price": 0,
+    "special": false,
+    "gacha_behavior": "points",
+    "bonus_behavior": "points",
+    "points_type": "exchange",
+    "points_amount": 18
+  },
+  "鸣剑曳影兑换币×25": {
+    "quality": "purple",
+    "has_showcase": false,
+    "decompose_points": 0,
+    "exchange_price": 0,
+    "special": false,
+    "gacha_behavior": "points",
+    "bonus_behavior": "points",
+    "points_type": "exchange",
+    "points_amount": 25
+  },
+  "鸣剑曳影兑换币×30": {
+    "quality": "purple",
+    "has_showcase": false,
+    "decompose_points": 0,
+    "exchange_price": 0,
+    "special": false,
+    "gacha_behavior": "points",
+    "bonus_behavior": "points",
+    "points_type": "exchange",
+    "points_amount": 30
+  },
+  "鸣剑曳影兑换币×35": {
+    "quality": "purple",
+    "has_showcase": false,
+    "decompose_points": 0,
+    "exchange_price": 0,
+    "special": false,
+    "gacha_behavior": "points",
+    "bonus_behavior": "points",
+    "points_type": "exchange",
+    "points_amount": 35
+  },
+  "鸣剑曳影兑换币×55": {
+    "quality": "purple",
+    "has_showcase": false,
+    "decompose_points": 0,
+    "exchange_price": 0,
+    "special": false,
+    "gacha_behavior": "points",
+    "bonus_behavior": "points",
+    "points_type": "exchange",
+    "points_amount": 55
+  },
+  "鸣剑曳影兑换币×66": {
+    "quality": "purple",
+    "has_showcase": false,
+    "decompose_points": 0,
+    "exchange_price": 0,
+    "special": false,
+    "gacha_behavior": "points",
+    "bonus_behavior": "points",
+    "points_type": "exchange",
+    "points_amount": 66
+  },
+  "鸣剑曳影兑换币×88": {
+    "quality": "purple",
+    "has_showcase": false,
+    "decompose_points": 0,
+    "exchange_price": 0,
+    "special": false,
+    "gacha_behavior": "points",
+    "bonus_behavior": "points",
+    "points_type": "exchange",
+    "points_amount": 88
+  },
+
+  // ===== 钻石宝箱（紫色，积分类型）=====
+  "99钻石宝箱": {
     "quality": "purple",
     "has_showcase": false,
     "decompose_points": 0,
@@ -359,45 +333,107 @@ var ITEM_BOX_CONFIG = {
     "gacha_behavior": "points",
     "bonus_behavior": "points",
     "points_type": "diamond",
-    "points_amount": 1
+    "points_amount": 99
   },
-  "闪光弹-游骑兵-寒霜": {
-    "quality": "gold",
-    "has_showcase": true,
-    "decompose_points": 100,
+  "199钻石宝箱": {
+    "quality": "purple",
+    "has_showcase": false,
+    "decompose_points": 0,
     "exchange_price": 0,
-    "special": false,
-    "gacha_behavior": "storage",
-    "bonus_behavior": "warehouse"
+    "special": true,
+    "gacha_behavior": "points",
+    "bonus_behavior": "points",
+    "points_type": "diamond",
+    "points_amount": 199
   },
-  "闪光弹-雷暴": {
-    "quality": "gold",
-    "has_showcase": true,
-    "decompose_points": 100,
+  "666钻石宝箱": {
+    "quality": "purple",
+    "has_showcase": false,
+    "decompose_points": 0,
     "exchange_price": 0,
-    "special": false,
-    "gacha_behavior": "storage",
-    "bonus_behavior": "warehouse"
+    "special": true,
+    "gacha_behavior": "points",
+    "bonus_behavior": "points",
+    "points_type": "diamond",
+    "points_amount": 666
   },
-  "高爆手雷-雷暴": {
-    "quality": "gold",
-    "has_showcase": true,
-    "decompose_points": 100,
+  "1888钻石宝箱": {
+    "quality": "purple",
+    "has_showcase": false,
+    "decompose_points": 0,
     "exchange_price": 0,
-    "special": false,
-    "gacha_behavior": "storage",
-    "bonus_behavior": "warehouse"
-  }
-};
+    "special": true,
+    "gacha_behavior": "points",
+    "bonus_behavior": "points",
+    "points_type": "diamond",
+    "points_amount": 1888
+  },
+  "9999钻石宝箱": {
+    "quality": "gold",
+    "has_showcase": false,
+    "decompose_points": 0,
+    "exchange_price": 0,
+    "special": true,
+    "gacha_behavior": "points",
+    "bonus_behavior": "points",
+    "points_type": "diamond",
+    "points_amount": 9999
+  },
+  "18888钻石宝箱": {
+    "quality": "gold",
+    "has_showcase": false,
+    "decompose_points": 0,
+    "exchange_price": 0,
+    "special": true,
+    "gacha_behavior": "points",
+    "bonus_behavior": "points",
+    "points_type": "diamond",
+    "points_amount": 18888
+  },
 
-// 根据道具名称获取盒子配置
-function getBoxConfig(itemName){
-  if(!itemName) return null;
-  // 去掉末尾的×数量
-  var cleanName = itemName.replace(/[×*]\d+$/, '');
-  // 先查映射表（处理带 | 的特殊名称）
-  if(window.ITEM_BASE_NAME_MAP && window.ITEM_BASE_NAME_MAP[cleanName]){
-    cleanName = window.ITEM_BASE_NAME_MAP[cleanName];
-  }
-  return ITEM_BOX_CONFIG[cleanName] || null;
-}
+  // ===== 赏金令积分宝箱（紫色，积分类型）=====
+  "100赏金令积分宝箱": {
+    "quality": "purple",
+    "has_showcase": false,
+    "decompose_points": 0,
+    "exchange_price": 0,
+    "special": true,
+    "gacha_behavior": "points",
+    "bonus_behavior": "points",
+    "points_type": "points",
+    "points_amount": 100
+  },
+  "200赏金令积分宝箱": {
+    "quality": "purple",
+    "has_showcase": false,
+    "decompose_points": 0,
+    "exchange_price": 0,
+    "special": true,
+    "gacha_behavior": "points",
+    "bonus_behavior": "points",
+    "points_type": "points",
+    "points_amount": 200
+  },
+  "1000点赏金令积分宝箱": {
+    "quality": "gold",
+    "has_showcase": false,
+    "decompose_points": 0,
+    "exchange_price": 0,
+    "special": true,
+    "gacha_behavior": "points",
+    "bonus_behavior": "points",
+    "points_type": "points",
+    "points_amount": 1000
+  },
+
+  // ===== 抽奖币（特殊）=====
+  "鸣剑曳影夺宝币": {
+    "quality": "gold",
+    "has_showcase": false,
+    "decompose_points": 0,
+    "exchange_price": 0,
+    "special": true,
+    "gacha_behavior": "none",
+    "bonus_behavior": "none"
+  },
+};
